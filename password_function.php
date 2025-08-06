@@ -25,6 +25,7 @@ function login($email, $password)
         ["sambeaup@gmail.com", "fsA7j#jK"],
         ["jeanprak@gmail.com", "hsA7j#jK"],
     ];
+
     for ($j = 0; $j < count($utilisateurs); $j++) {
         $utilisateurEmail = $utilisateurs[$j][0];
         $utilisateurMdp = $utilisateurs[$j][1];
